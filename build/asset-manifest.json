@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mariaclima/static/css/main.00aa9d47.css",
+    "main.js": "/mariaclima/static/js/main.c773414e.js",
+    "index.html": "/mariaclima/index.html",
+    "main.00aa9d47.css.map": "/mariaclima/static/css/main.00aa9d47.css.map",
+    "main.c773414e.js.map": "/mariaclima/static/js/main.c773414e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00aa9d47.css",
+    "static/js/main.c773414e.js"
+  ]
+}
