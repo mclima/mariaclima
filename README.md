@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+mariaclima is our web portolio. Our projects showcase successful and inspired web design and development solutions. We invite you to browse through our portfolio, and feel free to contact us.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
