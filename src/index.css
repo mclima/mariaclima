@@ -9,16 +9,15 @@
 }
 
 :root {
-    --primary-hue: 240;
-    --black-lightness: 15%;
-    --dark-lightness: 44%;
-    --light-lightness: 94%;
-    --white-lightness: 100%;
-    --color-primary: #ccccff;
-    --color-white: hsl(0, 5%, var(--white-lightness));
-    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
-    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
-    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+    --color-black:#333;
+    --color-blue:#3333ff; /*links*/
+    --color-lightGray:#bbb;
+    --color-lightGreen:#deeeee; /*contact form*/
+    --color-lilac:#ccf;
+    --color-lightLilac:#ecebff;
+    --color-red:#d32539; /*hover links*/
+    --color-white:#fff;
+    --color-gray:#ccc;
 
     /* GENERAL CONTAINER VARIABLES */
     --container-width-lg: 76%;
@@ -38,9 +37,12 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.6;
-    font-size: 0.9rem;
+    background: url('assets/white-square.jpg') repeat 0% 0%;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1rem;
+    line-height:1.75rem;
+    color:var(--color-black);
+    font-weight: 400;
 }
 
 
@@ -58,9 +60,9 @@ section {
     transition: var(--transition);
 }
 
-section:nth-child(even) {
+/* section:nth-child(even) {
     background: var(--color-white);
-}
+} */
 
 section > h2 {
     text-align: center;
@@ -123,7 +125,8 @@ img {
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: var(--color-light);
+    background: --color-lilac;
+    background: linear-gradient(rgba(255,255,255,1), rgba(204,204,255,1));
     color: var(--color-black);
     padding: 0.6rem 2.5rem;
     border: 2px solid transparent;
@@ -133,7 +136,7 @@ img {
 
 .btn:hover {
     background-color: transparent;
-    border-color: var(--color-light);
+    border-color: var(--color-lilac);
     transform: translateY(-0.5rem);
 }
 
@@ -153,9 +156,9 @@ img {
 }
 
 .btn.primary:hover {
-    background: transparent;
-    border-color: var(--color-primary);
-    color: var(--color-primary);
+    background:--color-gray;
+    background: linear-gradient(rgba(255,255,255,1), rgba(204, 204, 204, 1) ); 
+    border: 1px solid $gray;
 }
 
 .btn.sm {
