@@ -45,7 +45,9 @@ nav.mcl-active {
     /* gap: 3.5rem; */
 }
 
-
+.nav__menu a {
+    color:var(--color-white);
+}
 /* HIDE NAV MENU ON TABLETS AND PHONES */
 @media screen and (max-width: 1024px) {
     .nav__menu {

@@ -1,4 +1,4 @@
-import AboutImage from '../../assets/me.png';
+import AboutImage from '../../assets/maria-sarya.png';
 import Card from '../../components/Card';
 import data from './data';
 import './about.css';
@@ -27,7 +27,8 @@ const About = () => {
          
         </div>
         <p>
-          Maria graduated with a BS in Computer Information Systems from Mercy University in 2007 and obtained a Certification in Web Development from New York University in 2006. She regularly educates herself on the newest technologies to keep up with the latest trends and tools in web development and design.
+          Maria graduated with a BS in Computer Information Systems from Mercy University in 2007 and obtained a Certification in Web Development from New York University in 2006. She regularly educates herself on the newest technologies to keep up with the latest trends and tools in web development and design.</p>
+          <p>In her spare time, Maria dedicates herself to her family, yet she occasionally finds moments to create technical <a href="https://mclinteractive.com/author/admin/" target="_blank" rel="noopener noreferrer">articles</a>, which she then shares on her blog.
         </p>
       </div>
     </div>

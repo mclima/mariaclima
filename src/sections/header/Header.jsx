@@ -1,9 +1,12 @@
 import { useEffect } from "react";
-import Logo from '../../assets/logo.png';
 import './header.css';
 import { gsap } from "gsap";
 
 const Header = () => {
+  //LOGO
+  useEffect(() => { 
+    gsap.to('.logo',{ delay:.25, duration: .33, autoAlpha:1, ease:'none'  });
+  }, []);
   //CIRCLES ANIMATION
   useEffect(() => { 
     gsap.to('.c-1',{ duration: .33, width: 70, height: 70, transformOrgin:'center', ease:'none'  });
@@ -26,7 +29,10 @@ const Header = () => {
         <div className="container header__container">
           <div className="logo__container">
               <div className="logo">
-              <a href="index.html"><img src={Logo} alt="Maria C. Lima Logo" /></a>
+              <a href="index.html">
+              <span>maria c. lima</span>
+              <span className="logo-teaser">Web Technology Studio</span>
+              </a>
             </div>
           </div>
          

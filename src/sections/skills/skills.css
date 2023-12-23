@@ -1,41 +1,41 @@
-.services__container {
+.skills__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem 4rem;
 }
 
-.card.service {
+.card.skill {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
 }
 
-.service__icon {
+.skill__icon {
     background: var(--color-lilac);
-    padding: 0.6rem;
+    padding: 0.6rem 0.6rem 0.3rem;
     border-radius: var(--border-radius-3);
     font-size: 1.5rem;
     color: var(--color-white);
     transition: var(--transition);
 }
 
-.service:hover .service__icon {
+.skill:hover .skill__icon {
     background: var(--color-light);
     color: var(--color-lilac);
 }
 
-.service h4 {
+.skill h4 {
     margin-bottom: 0.7rem;
 }
 
-#services h4 {
+#skills h4 {
     text-align: center;
     padding:1rem 0;
 }
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
-    .services__container {
+    .skills__container {
         gap: 1.5rem;
     }
 }
@@ -43,12 +43,12 @@
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
-    .services__container {
+    .skills__container {
         grid-template-columns: 1fr;
         gap: 1.2rem;
     }
 
-    .card.service {
+    .card.skill {
         gap: 1.2rem;
     }
 }

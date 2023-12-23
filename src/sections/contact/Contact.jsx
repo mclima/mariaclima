@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact">
         <h2>Contact</h2>
         <h4>WOULD YOU LIKE TO CONTACT US?</h4>
-        <p>We are happy to provide you with a quote for your project, or any clarification about our services and products. Here is how to contact us:</p>
+        <p>Feel free to connect with Maria. She welcomes inquiries, collaborations, and discussions related to her work and expertise in frontend web&nbsp;development.</p>
         <div className="container contact__container">
           {
             data.map(item => (

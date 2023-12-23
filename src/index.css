@@ -92,7 +92,7 @@ section > p {
 
 /* GENERAL SECTION STYLES */
 a {
-    color: var(--color-white);
+    color: var(--color-red);
     transition: var(--transition);
 }
 
