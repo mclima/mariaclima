@@ -64,8 +64,23 @@ section {
     background: var(--color-white);
 } */
 
-section > h2 {
+section h2 {
+    color:var(--color-black);
+    font-family: 'Aldrich', sans-serif;
+    font-size:1.2rem;
     text-align: center;
+    position:relative;
+    text-transform: uppercase;
+}
+
+section h2:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    background: var(--color-lilac);
+    vertical-align: -40%;
+    margin: 0 6px 0 0;
 }
 
 section > p {
