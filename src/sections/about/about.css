@@ -86,5 +86,8 @@ section .about__right h2 {
 .about__right .btn {
     margin-top: 2rem;
 }
-
+.about__right p {
+    padding-left:15px;
+    padding-right:15px;
+}
 }

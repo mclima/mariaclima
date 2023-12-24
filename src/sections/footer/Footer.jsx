@@ -7,13 +7,6 @@ const Footer = () => {
   return (
     <footer id="footer">
       <div className="footer footer__container">
-        <ul className="nav__menu">
-          {
-            links.map(flink => (
-              <li key={flink.id}><a href={flink.link}>{flink.title}</a></li>
-            ))
-          }
-        </ul>
         <div className="footer__socials">
           {
             socials.map(fsocial => (

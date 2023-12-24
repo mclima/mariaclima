@@ -9,7 +9,7 @@ const data = [
     {id: 1, link: '#', icon: <AiFillHome/>},
     {id: 4, link: '#portfolio', icon: <AiFillAppstore/>},
     {id: 3, link: '#skills', icon: <MdHomeRepairService/>},
-     {id: 2, link: '#about', icon: <BsPersonFill/>},
+    {id: 2, link: '#about', icon: <BsPersonFill/>},
     {id: 5, link: '#contact', icon: <AiFillMessage/>}
 ]
 
