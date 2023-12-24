@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/mariaclima/static/css/main.f3639e24.css",
-    "main.js": "/mariaclima/static/js/main.640b3a86.js",
+    "main.css": "/mariaclima/static/css/main.a0daa5c9.css",
+    "main.js": "/mariaclima/static/js/main.832dbad4.js",
+    "static/media/maria-sarya.png": "/mariaclima/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
     "static/media/me.png": "/mariaclima/static/media/me.36145e97d83622dede2d.png",
     "index.html": "/mariaclima/index.html",
-    "main.f3639e24.css.map": "/mariaclima/static/css/main.f3639e24.css.map",
-    "main.640b3a86.js.map": "/mariaclima/static/js/main.640b3a86.js.map"
+    "main.a0daa5c9.css.map": "/mariaclima/static/css/main.a0daa5c9.css.map",
+    "main.832dbad4.js.map": "/mariaclima/static/js/main.832dbad4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3639e24.css",
-    "static/js/main.640b3a86.js"
+    "static/css/main.a0daa5c9.css",
+    "static/js/main.832dbad4.js"
   ]
 }
