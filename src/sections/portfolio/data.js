@@ -118,7 +118,7 @@ const data = [
         category: 'Websites',
         image: Image11,
         title: "Maria C. Lima Studio",
-        desc: "Built with React.",
+        desc: "Built with React, JavaScript, CSS.",
         demo: 'https://mariaclima.com',
         github: 'https://github.com/mclima/mariaclima'
     },
@@ -127,7 +127,7 @@ const data = [
         category: 'Websites',
         image: Image12,
         title: "PCH - Payments Online Website",
-        desc: "Built frontend with JavaScript.",
+        desc: "Built frontend with JavaScript, CSS.",
         demo: 'https://myaccount.pch.com/',
         github: ''
     },
@@ -136,7 +136,7 @@ const data = [
         category: 'Websites',
         image: Image13,
         title: "MCL Interactive",
-        desc: "Built with WordPress.",
+        desc: "Built with WordPress, JavaScript, CSS.",
         demo: 'https:mclinteractive.com',
         github: ''
     },
@@ -145,7 +145,7 @@ const data = [
         category: 'Websites',
         image: Image14,
         title: "Quantum Stat",
-        desc: "Built with Python, Flask.",
+        desc: "Built with Python, Flask, JavaScript, CSS.",
         demo: 'https://quantumstat.com',
         github: ''
     },
@@ -154,7 +154,7 @@ const data = [
         category: 'Websites',
         image: Image15,
         title: "Plus2SD",
-        desc: "Built with PHP, MySQL.",
+        desc: "Built with PHP, MySQL, JavaScript, CSS. Demo available upon request.",
         demo: 'https://plus2sd.com/',
         github: ''
     },
@@ -163,7 +163,7 @@ const data = [
         category: 'Websites',
         image: Image16,
         title: "Fox Business",
-        desc: "Built frontend with JavaScript, jQuery.",
+        desc: "Maintained and enhanced the frontend with JavaScript, jQuery, CSS.",
         demo: 'https://foxbusiness.com',
         github: ''
     },
@@ -172,7 +172,7 @@ const data = [
         category: 'Websites',
         image: Image17,
         title: "Pensions & Investments",
-        desc: "Built frontend with JavaScript, jQuery.",
+        desc: "Maintained and enhanced the frontend with JavaScript, jQuery, CSS.",
         demo: 'https://pionline.com',
         github: ''
     },
@@ -210,7 +210,7 @@ const data = [
         title: "Rate Calculator",
         desc: "Built with JavaScript.",
         demo: 'https://websystemsview.com/sv/webdevelopment/javascript/javascript.html#rateForm',
-        github: ''
+        github: 'https://github.com/mclima/rate-calculator'
     },
     {
         id: 22,
@@ -219,7 +219,7 @@ const data = [
         title: "PCH Customers' Weekly Prize Payments.",
         desc: "Built with JavaScript.",
         demo: 'https://mariaclima.com/pch/calculations/pch-prize-payments.html',
-        github: ''
+        github: 'https://github.com/mclima/weekly-prize-payments'
     }
 ]
 

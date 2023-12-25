@@ -1,10 +1,9 @@
-import Scroller from '../../components/Scroller';
+
 import Project from "./Project";
 
 const Projects = ({projects}) => {
   return (
-    <div className="portfolio__projects scrollEl">
-      <Scroller />
+    <div className="portfolio__projects">
       {
         projects.map(project => (
             <Project key={project.id} project={project}/>

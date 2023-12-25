@@ -10,7 +10,7 @@ const Project = ({project}) => {
         <h4>{project.title}</h4>
         <p>{project.desc}</p>
         <div className="portfolio__project-cta">
-            <a href={project.demo} className="btn sm" target="_blank" rel="noopner noreferrer">{project.category === 'Animations' ? 'Desktop' : 'Demo'}</a>
+            <a href={project.demo} className="btn sm" target="_blank" rel="noopner noreferrer">{project.category === 'Animations' ? 'Desktop' : project.demo.indexOf('codepen') > 0 ? 'Codepen' : 'Visit'}</a>
             {/*do not display the github button if project.github is an empty string*/}
             {project.github !== '' && <a href={project.github} className={project.category === 'Animations' ? 'btn sm' : 'btn sm primary'} target="_blank" rel="noopner noreferrer">{project.category === 'Animations' ? 'Mobile' : 'Github'}</a>}
         </div>
