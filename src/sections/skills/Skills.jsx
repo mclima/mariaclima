@@ -1,14 +1,16 @@
 import data from './data';
 import Card from '../../components/Card';
+import Scroller from '../../components/Scroller';
 import './skills.css';
 
 const Skills = () => {
     return (
     <section id="skills">
+        <Scroller/>
         <h2>Skills</h2>
-        <h4>WHAT CAN WE DO FOR YOU?</h4>
-        <p>Maria is proficient in various frontend technologies such as HTML, Sass, CSS, and JavaScript.  She's actively expanding proficiency in the React framework through self-guided learning and practical application. Additionally, she has demonstrated expertise in responsive design, UI/UX principles, and version control systems.</p>
-        <div className="skills skills__container">
+        <h4>WHAT CAN WE DO FeOR YOU?</h4>
+        <p className="scrollEl">Maria is proficient in various frontend technologies such as HTML, Sass, CSS, and JavaScript.  She's actively expanding proficiency in the React framework through self-guided learning and practical application. Additionally, she has demonstrated expertise in responsive design, UI/UX principles, and version control systems.</p>
+        <div className="skills skills__container scrollEl">
         {
         data.map(item => (
             <Card key={item.id} className='skill light'>

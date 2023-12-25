@@ -17,7 +17,7 @@
     --color-lightLilac:#ecebff;
     --color-red:#d32539; /*hover links*/
     --color-white:#fff;
-    --color-gray:#ccc;
+    --color-gray:#efefef;
 
     /* GENERAL CONTAINER VARIABLES */
     --container-width-lg: 76%;
@@ -43,6 +43,7 @@ body {
     line-height:1.75rem;
     color:var(--color-black);
     font-weight: 400;
+    overflow-x:hidden;
 }
 
 
@@ -59,10 +60,6 @@ section {
     background: var(--color-light);
     transition: var(--transition);
 }
-
-/* section:nth-child(even) {
-    background: var(--color-white);
-} */
 
 section h2 {
     color:var(--color-black);
@@ -140,8 +137,7 @@ img {
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: --color-lilac;
-    background: linear-gradient(rgba(255,255,255,1), rgba(204,204,255,1));
+    background-color:var(--color-white);
     color: var(--color-black);
     padding: 0.6rem 2.5rem;
     border: 2px solid transparent;
@@ -165,15 +161,14 @@ img {
 }
 
 .btn.primary {
-    background: var(--color-primary);
-    /* text color always white that's why i didn't use a variable color */
+    background: var(--color-lilac);
     color: white;
 }
 
 .btn.primary:hover {
-    background:--color-gray;
+    background:var(--color-light);
     background: linear-gradient(rgba(255,255,255,1), rgba(204, 204, 204, 1) ); 
-    border: 1px solid $gray;
+    border: 1px solid var(--color-gray);
 }
 
 .btn.sm {

@@ -10,10 +10,10 @@ const data = [
         id: 1, icon: <AiFillAppstore/>, title: 'UI/UX Principles', desc: "Maria is conveying her commitment to creating frontend designs that not only look good but also prioritize a seamless and enjoyable experience for the end user."
     },
     {
-        id: 2, icon: <FaCss3 />, title: 'HTML/Sass/CSS', desc: "Maria is able to build and style responsive web pages effectively, combining structure, efficiency, and visual appeal in her frontend development work."
+        id: 2, icon: <FaCss3 />, title: 'HTML/Sass/CSS', desc: "Maria is able to build and style responsive web pages effectively, combining structure, efficiency, and visual appeal."
     },
     {
-        id: 3, icon: <IoLogoJavascript />, title: 'JavaScript', desc: "Maria's proficiency in JavaScript showcases her ability to create dynamic and interactive web applications, enhancing the overall user experience on the frontend of websites."
+        id: 3, icon: <IoLogoJavascript />, title: 'JavaScript', desc: "Maria's proficiency in JavaScript showcases her ability to create dynamic and interactive web applications, enhancing the overall user experience."
     },
     {
         id: 4, icon: <RiReactjsLine/>, title: 'React', desc: "Maria has the ability to build interactive, scalable, and maintainable user interfaces, making her a valuable asset in modern frontend development."
