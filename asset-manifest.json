@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mariaclima/static/css/main.76694a4d.css",
-    "main.js": "/mariaclima/static/js/main.233b367b.js",
+    "main.js": "/mariaclima/static/js/main.cb95a7e5.js",
     "static/media/countdown.png": "/mariaclima/static/media/countdown.76c942d08e7aa6104785.png",
     "static/media/maria-sarya.png": "/mariaclima/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
     "static/media/foxbusiness.png": "/mariaclima/static/media/foxbusiness.ef911212cd4430fbbf03.png",
@@ -26,10 +26,10 @@
     "static/media/me.png": "/mariaclima/static/media/me.36145e97d83622dede2d.png",
     "index.html": "/mariaclima/index.html",
     "main.76694a4d.css.map": "/mariaclima/static/css/main.76694a4d.css.map",
-    "main.233b367b.js.map": "/mariaclima/static/js/main.233b367b.js.map"
+    "main.cb95a7e5.js.map": "/mariaclima/static/js/main.cb95a7e5.js.map"
   },
   "entrypoints": [
     "static/css/main.76694a4d.css",
-    "static/js/main.233b367b.js"
+    "static/js/main.cb95a7e5.js"
   ]
 }
