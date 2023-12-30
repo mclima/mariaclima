@@ -63,16 +63,21 @@
     gap: 1rem;
 }
 .portfolio__project .btn.sm {
-    border-color:var(--color-lilac);
+     padding-left:0;
+     padding-right:0;
 }
 .portfolio__project:hover .btn.sm {
-    border-color: var(--color-white);
+    background:transparent;
+    border-color: transparent;
+}
+
+.portfolio__project .btn.sm.primary {
+    background:transparent;
+    color:var(--color-black);
 }
 
 .portfolio__project:hover .btn.sm.primary {
     background: transparent;
-    color: var(--color-lilac);
-    border-color: var(--color-lilac);
 }
 
 

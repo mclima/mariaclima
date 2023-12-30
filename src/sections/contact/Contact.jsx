@@ -1,11 +1,13 @@
+import { useRef } from 'react';
 import data from './data';
 import Scroller from '../../components/Scroller';
 import './contact.css';
 
 const Contact = () => {
+  const triggerRef = useRef();
   return (
-    <section id="contact">
-      <Scroller/>
+    <section id="contact" ref={triggerRef}>
+        <Scroller  triggerRef={triggerRef} />
         <h2>Contact</h2>
         <h4>WOULD YOU LIKE TO CONTACT US?</h4>
         <p className="scrollEl">Feel free to connect with Maria. She welcomes inquiries, collaborations, and discussions related to her work and expertise in frontend web&nbsp;development.</p>

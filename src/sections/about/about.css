@@ -63,7 +63,7 @@ section .about__right h2 {
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     .about__left {
-        display: none;
+        /* display: none; */
     }
 
     .about__container {
