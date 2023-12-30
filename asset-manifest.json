@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.588a95cd.css",
-    "main.js": "/static/js/main.60a1b5b8.js",
+    "main.css": "/static/css/main.eb3b5eab.css",
+    "main.js": "/static/js/main.fe3b73c0.js",
     "static/media/countdown.png": "/static/media/countdown.76c942d08e7aa6104785.png",
     "static/media/maria-sarya.png": "/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
     "static/media/foxbusiness.png": "/static/media/foxbusiness.ef911212cd4430fbbf03.png",
     "static/media/quantumstat.png": "/static/media/quantumstat.e229252fd7ee0b664538.png",
     "static/media/mobile-slider.png": "/static/media/mobile-slider.f563a31ab463f263bdf2.png",
     "static/media/ada-slider.png": "/static/media/ada-slider.3c48a4a90dba3dee992a.png",
-    "static/media/mariaclima.png": "/static/media/mariaclima.211833af53e3f8e2a6a5.png",
     "static/media/mclinteractive.png": "/static/media/mclinteractive.729317731b536e5dc268.png",
+    "static/media/mariaclima.png": "/static/media/mariaclima.c8b0442443702abf892d.png",
     "static/media/pionline.png": "/static/media/pionline.26c805fc9bab524307f3.png",
     "static/media/payments-online.png": "/static/media/payments-online.4bd5ac12917f8e11a0fa.png",
     "static/media/friends-family-kickoff.jpg": "/static/media/friends-family-kickoff.e978a25d9853a48e8c75.jpg",
@@ -23,13 +23,12 @@
     "static/media/bank-book1.jpg": "/static/media/bank-book1.4be1b44157cb1a4e8827.jpg",
     "static/media/important-messages-waiting.jpg": "/static/media/important-messages-waiting.5c9324500b13333fbd75.jpg",
     "static/media/limited-access-prize.jpg": "/static/media/limited-access-prize.005c95f2ec70ce14661b.jpg",
-    "static/media/me.png": "/static/media/me.36145e97d83622dede2d.png",
     "index.html": "/index.html",
-    "main.588a95cd.css.map": "/static/css/main.588a95cd.css.map",
-    "main.60a1b5b8.js.map": "/static/js/main.60a1b5b8.js.map"
+    "main.eb3b5eab.css.map": "/static/css/main.eb3b5eab.css.map",
+    "main.fe3b73c0.js.map": "/static/js/main.fe3b73c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.588a95cd.css",
-    "static/js/main.60a1b5b8.js"
+    "static/css/main.eb3b5eab.css",
+    "static/js/main.fe3b73c0.js"
   ]
 }
