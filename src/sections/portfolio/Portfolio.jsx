@@ -11,7 +11,7 @@ const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState('Websites'); // Set the desired initial category
   const myArray = data.map(item => item.category);
   const mySet = new Set(myArray);
-  const categories = Array.from(mySet).reverse(); // reverse order of array
+  const categories = Array.from(mySet).sort().reverse(); // reverse order of array
   const uniqueCategories = ["all", ...categories];
 
   const filterProjectsHandler = (category) => {
