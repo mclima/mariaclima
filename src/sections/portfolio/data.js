@@ -125,9 +125,9 @@ const data = [
         github: 'https://mariaclima.com/pch/spin-wheel/m_page1.html'
     },
     {
-        id: 1,
+        id: 12,
         category: 'Websites',
-        image: Image10,
+        image: Image12,
         title: "Maria C. Lima - Web Technology Studio",
         desc: "Built with React, JavaScript, CSS.",
         demo: 'https://mariaclima.com',
