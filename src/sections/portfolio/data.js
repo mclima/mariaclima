@@ -39,7 +39,7 @@ const data = [
         category: 'Animations',
         image: Image2,
         title: "InPage Widget Animation",
-        desc: "Built with JavaScript, GSAP, Sass.",
+        desc: "Built with JavaScript, GSAP, CSS.",
         demo: 'https://mariaclima.com/pch/mystery-box-savings-device/page1.html',
         github: 'https://mariaclima.com/pch/mystery-box-savings-device/m_page1.html'
     },
@@ -48,7 +48,7 @@ const data = [
         category: 'Animations',
         image: Image3,
         title: "InPage Widget Animation",
-        desc: "Built with JavaScript, GSAP, Sass.",
+        desc: "Built with JavaScript, GSAP, CSS.",
         demo: 'https://mariaclima.com/pch/mystery-prize-reveal/page1.html',
         github: 'https://mariaclima.com/pch/mystery-prize-reveal/m_page1.html'
     },

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eb3b5eab.css",
-    "main.js": "/static/js/main.91941ccb.js",
+    "main.js": "/static/js/main.601bc87b.js",
     "static/media/countdown.png": "/static/media/countdown.76c942d08e7aa6104785.png",
     "static/media/maria-sarya.png": "/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
     "static/media/foxbusiness.png": "/static/media/foxbusiness.ef911212cd4430fbbf03.png",
@@ -27,10 +27,10 @@
     "static/media/limited-access-prize.jpg": "/static/media/limited-access-prize.005c95f2ec70ce14661b.jpg",
     "index.html": "/index.html",
     "main.eb3b5eab.css.map": "/static/css/main.eb3b5eab.css.map",
-    "main.91941ccb.js.map": "/static/js/main.91941ccb.js.map"
+    "main.601bc87b.js.map": "/static/js/main.601bc87b.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3b5eab.css",
-    "static/js/main.91941ccb.js"
+    "static/js/main.601bc87b.js"
   ]
 }
