@@ -129,7 +129,7 @@ const data = [
         category: 'Websites',
         image: Image12,
         title: "Maria C. Lima - Web Technology Studio",
-        desc: "Built with React, JavaScript, CSS.",
+        desc: "Built with React, JavaScript, GSAP, CSS.",
         demo: 'https://mariaclima.com',
         github: 'https://github.com/mclima/mariaclima'
     },
