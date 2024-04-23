@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.eb3b5eab.css",
-    "main.js": "/static/js/main.7998dbe4.js",
+    "main.js": "/static/js/main.d0280be6.js",
+    "static/media/imperium-platform.png": "/static/media/imperium-platform.0a0e11afd47e06315b66.png",
     "static/media/countdown.png": "/static/media/countdown.76c942d08e7aa6104785.png",
     "static/media/maria-sarya.png": "/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
     "static/media/foxbusiness.png": "/static/media/foxbusiness.ef911212cd4430fbbf03.png",
@@ -12,8 +13,8 @@
     "static/media/mystery-savings-device.png": "/static/media/mystery-savings-device.42c34339b50c8692a5a3.png",
     "static/media/mclinteractive.png": "/static/media/mclinteractive.729317731b536e5dc268.png",
     "static/media/mariaclima.png": "/static/media/mariaclima.c8b0442443702abf892d.png",
+    "static/media/pch-payments.jpg": "/static/media/pch-payments.c8bb49ab8f040481fa64.jpg",
     "static/media/pionline.png": "/static/media/pionline.26c805fc9bab524307f3.png",
-    "static/media/pch-payments.jpg": "/static/media/pch-payments.20d80c782a70939337dc.jpg",
     "static/media/payments-online.png": "/static/media/payments-online.4bd5ac12917f8e11a0fa.png",
     "static/media/friends-family-kickoff.jpg": "/static/media/friends-family-kickoff.e978a25d9853a48e8c75.jpg",
     "static/media/little-something.jpg": "/static/media/little-something.bc36ecd362193c2d8e24.jpg",
@@ -27,10 +28,10 @@
     "static/media/limited-access-prize.jpg": "/static/media/limited-access-prize.005c95f2ec70ce14661b.jpg",
     "index.html": "/index.html",
     "main.eb3b5eab.css.map": "/static/css/main.eb3b5eab.css.map",
-    "main.7998dbe4.js.map": "/static/js/main.7998dbe4.js.map"
+    "main.d0280be6.js.map": "/static/js/main.d0280be6.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3b5eab.css",
-    "static/js/main.7998dbe4.js"
+    "static/js/main.d0280be6.js"
   ]
 }
