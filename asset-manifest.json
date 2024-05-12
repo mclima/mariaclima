@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mariaclima/static/css/main.eb3b5eab.css",
-    "main.js": "/mariaclima/static/js/main.4306ae2e.js",
+    "main.js": "/mariaclima/static/js/main.2ea6f430.js",
     "static/media/imperium-platform.png": "/mariaclima/static/media/imperium-platform.0a0e11afd47e06315b66.png",
     "static/media/countdown.png": "/mariaclima/static/media/countdown.76c942d08e7aa6104785.png",
     "static/media/maria-sarya.png": "/mariaclima/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
@@ -11,11 +11,12 @@
     "static/media/mobile-slider.png": "/mariaclima/static/media/mobile-slider.f563a31ab463f263bdf2.png",
     "static/media/ada-slider.png": "/mariaclima/static/media/ada-slider.3c48a4a90dba3dee992a.png",
     "static/media/mystery-savings-device.png": "/mariaclima/static/media/mystery-savings-device.42c34339b50c8692a5a3.png",
-    "static/media/mclinteractive.png": "/mariaclima/static/media/mclinteractive.729317731b536e5dc268.png",
     "static/media/mariaclima.png": "/mariaclima/static/media/mariaclima.c8b0442443702abf892d.png",
     "static/media/pch-payments.jpg": "/mariaclima/static/media/pch-payments.c8bb49ab8f040481fa64.jpg",
     "static/media/pionline.png": "/mariaclima/static/media/pionline.26c805fc9bab524307f3.png",
     "static/media/payments-online.png": "/mariaclima/static/media/payments-online.4bd5ac12917f8e11a0fa.png",
+    "static/media/armelle-for-kids.jpg": "/mariaclima/static/media/armelle-for-kids.f5fd7bdf410b394f5290.jpg",
+    "static/media/salih-salon.jpg": "/mariaclima/static/media/salih-salon.ab02af3450ecaa02396b.jpg",
     "static/media/friends-family-kickoff.jpg": "/mariaclima/static/media/friends-family-kickoff.e978a25d9853a48e8c75.jpg",
     "static/media/little-something.jpg": "/mariaclima/static/media/little-something.bc36ecd362193c2d8e24.jpg",
     "static/media/youd-look-good.jpg": "/mariaclima/static/media/youd-look-good.e593a71fb1375378d99a.jpg",
@@ -28,10 +29,10 @@
     "static/media/limited-access-prize.jpg": "/mariaclima/static/media/limited-access-prize.005c95f2ec70ce14661b.jpg",
     "index.html": "/mariaclima/index.html",
     "main.eb3b5eab.css.map": "/mariaclima/static/css/main.eb3b5eab.css.map",
-    "main.4306ae2e.js.map": "/mariaclima/static/js/main.4306ae2e.js.map"
+    "main.2ea6f430.js.map": "/mariaclima/static/js/main.2ea6f430.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3b5eab.css",
-    "static/js/main.4306ae2e.js"
+    "static/js/main.2ea6f430.js"
   ]
 }
