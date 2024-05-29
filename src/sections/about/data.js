@@ -5,7 +5,7 @@ import {BiHappyHeartEyes} from 'react-icons/bi'
 
 const data = [
     {id: 1, icon: <FaAward/>, title: 'Experience', desc: '15+ Years'},
-    {id: 2, icon: <TbBooks/>, title: 'Projects', desc: '100+'},
+    {id: 2, icon: <TbBooks/>, title: 'Projects', desc: '250+'},
     {id: 3, icon: <BiHappyHeartEyes/>, title: 'Clients', desc: 'Many happy clients'}
     ]
 
