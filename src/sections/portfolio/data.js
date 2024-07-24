@@ -10,10 +10,10 @@ import Image9 from '../../assets/youd-look-good.jpg'
 import Image10 from '../../assets/press-big-bucks.jpg'
 import Image11 from '../../assets/spin-wheel.jpg'
 import Image12 from '../../assets/mariaclima.png'
-import Image13 from '../../assets/payments-online.png'
-import Image14 from '../../assets/imperium-platform.png'
-import Image15 from '../../assets/quantumstat.png'
-import Image16 from '../../assets/to-do-list.jpg'
+import Image13 from '../../assets/imperium-platform.png'
+import Image14 from '../../assets/quantumstat.png'
+import Image15 from '../../assets/to-do-list.jpg'
+import Image16 from '../../assets/twin-lions-global-health.jpg'
 import Image17 from '../../assets/salih-salon.jpg'
 import Image18 from '../../assets/armelle-for-kids.jpg'
 import Image19 from '../../assets/foxbusiness.png'
@@ -26,6 +26,7 @@ import Image25 from '../../assets/tic-tac-toe.png'
 import Image26 from '../../assets/rate-calculator.gif'
 import Image27 from '../../assets/pch-payments.jpg'
 import Image28 from '../../assets/nytimes-news-app.jpg'
+import Image29 from '../../assets/accordion-app.jpg'
 
 const data = [
   {
@@ -141,30 +142,39 @@ const data = [
     github: 'https://github.com/mclima/mariaclima',
   },
   {
-    id: 14,
+    id: 13,
     category: 'Websites',
-    image: Image14,
+    image: Image13,
     title: 'Imperium Platform - Machine Learning',
     desc: 'Built with JavaScript, CSS, HTML.',
     demo: 'https://imperium.quantumstat.com/login',
     github: '',
   },
   {
-    id: 15,
+    id: 14,
     category: 'Websites',
-    image: Image15,
+    image: Image14,
     title: 'Quantum Stat - Machine Learning',
     desc: 'Built with Python, Django, JavaScript, CSS, HTML.',
     demo: 'https://quantumstat.com',
     github: '',
   },
   {
-    id: 16,
+    id: 15,
     category: 'Websites',
-    image: Image16,
+    image: Image15,
     title: 'Plus2SD - To-Do List',
     desc: 'Built with PHP, MySQL, JavaScript, CSS, HTML. Demo available upon request.',
     demo: 'https://plus2sd.com/',
+    github: '',
+  },
+  {
+    id: 16,
+    category: 'Websites',
+    image: Image16,
+    title: 'Twin Lions - Wellness',
+    desc: 'Built with WordPress, JavaScript, GSAP, CSS, HTML.',
+    demo: 'https://twinlionsgh.com/',
     github: '',
   },
   {
@@ -268,12 +278,21 @@ const data = [
   },
   {
     id: 28,
-    category: 'Demos',
+    category: 'React',
     image: Image28,
     title: 'NYTimes Stories',
     desc: 'Built with Preact and Vite.',
     demo: 'https://mclima.github.io/news-app/',
     github: 'https://github.com/mclima/news-app',
+  },
+  {
+    id: 29,
+    category: 'React',
+    image: Image29,
+    title: 'Accordion',
+    desc: 'Built with React.',
+    demo: 'https://mclima.github.io/accordion-app/',
+    github: 'https://github.com/mclima/accordion-app',
   },
 ]
 

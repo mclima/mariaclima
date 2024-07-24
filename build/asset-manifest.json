@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eb3b5eab.css",
-    "main.js": "/static/js/main.14566380.js",
+    "main.js": "/static/js/main.15990b3d.js",
     "static/media/imperium-platform.png": "/static/media/imperium-platform.0a0e11afd47e06315b66.png",
     "static/media/countdown.png": "/static/media/countdown.76c942d08e7aa6104785.png",
     "static/media/maria-sarya.png": "/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
@@ -15,10 +15,10 @@
     "static/media/mariaclima.png": "/static/media/mariaclima.c8b0442443702abf892d.png",
     "static/media/pch-payments.jpg": "/static/media/pch-payments.c8bb49ab8f040481fa64.jpg",
     "static/media/pionline.png": "/static/media/pionline.26c805fc9bab524307f3.png",
-    "static/media/payments-online.png": "/static/media/payments-online.4bd5ac12917f8e11a0fa.png",
     "static/media/armelle-for-kids.jpg": "/static/media/armelle-for-kids.f5fd7bdf410b394f5290.jpg",
     "static/media/slider-win-your-dreams.jpg": "/static/media/slider-win-your-dreams.324b7ca6f37be40e43c6.jpg",
     "static/media/salih-salon.jpg": "/static/media/salih-salon.ab02af3450ecaa02396b.jpg",
+    "static/media/twin-lions-global-health.jpg": "/static/media/twin-lions-global-health.03d8f3e88e5912d337ad.jpg",
     "static/media/friends-family-kickoff.jpg": "/static/media/friends-family-kickoff.e978a25d9853a48e8c75.jpg",
     "static/media/little-something.jpg": "/static/media/little-something.bc36ecd362193c2d8e24.jpg",
     "static/media/youd-look-good.jpg": "/static/media/youd-look-good.e593a71fb1375378d99a.jpg",
@@ -28,13 +28,14 @@
     "static/media/pp-extra.jpg": "/static/media/pp-extra.696be58883752f98564e.jpg",
     "static/media/bank-book1.jpg": "/static/media/bank-book1.4be1b44157cb1a4e8827.jpg",
     "static/media/important-messages-waiting.jpg": "/static/media/important-messages-waiting.5c9324500b13333fbd75.jpg",
+    "static/media/accordion-app.jpg": "/static/media/accordion-app.519e094cc8387ccb3781.jpg",
     "static/media/limited-access-prize.jpg": "/static/media/limited-access-prize.005c95f2ec70ce14661b.jpg",
     "index.html": "/index.html",
     "main.eb3b5eab.css.map": "/static/css/main.eb3b5eab.css.map",
-    "main.14566380.js.map": "/static/js/main.14566380.js.map"
+    "main.15990b3d.js.map": "/static/js/main.15990b3d.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3b5eab.css",
-    "static/js/main.14566380.js"
+    "static/js/main.15990b3d.js"
   ]
 }
