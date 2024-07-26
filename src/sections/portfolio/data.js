@@ -27,7 +27,8 @@ import Image26 from '../../assets/rate-calculator.gif'
 import Image27 from '../../assets/pch-payments.jpg'
 import Image28 from '../../assets/nytimes-news-app.jpg'
 import Image29 from '../../assets/accordion-app.jpg'
-import Image30 from '../../assets/tip-calculator-app.jpg'
+import Image30 from '../../assets/show-more-app.jpg'
+import Image31 from '../../assets/tip-calculator-app.jpg'
 
 const data = [
   {
@@ -299,6 +300,15 @@ const data = [
     id: 30,
     category: 'React',
     image: Image30,
+    title: 'Show More',
+    desc: 'Built with React.',
+    demo: 'https://mclima.github.io/show-more-app/',
+    github: 'https://github.com/mclima/show-more-app',
+  },
+  {
+    id: 31,
+    category: 'React',
+    image: Image31,
     title: 'Tip Calculator',
     desc: 'Built with React.',
     demo: 'https://mclima.github.io/tip-calculator-app/',
