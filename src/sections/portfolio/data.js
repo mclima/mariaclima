@@ -29,6 +29,7 @@ import Image28 from '../../assets/nytimes-news-app.jpg'
 import Image29 from '../../assets/accordion-app.jpg'
 import Image30 from '../../assets/show-more-app.jpg'
 import Image31 from '../../assets/tip-calculator-app.jpg'
+import Image32 from '../../assets/currency-converter-app.jpg'
 
 const data = [
   {
@@ -313,6 +314,15 @@ const data = [
     desc: 'Built with React.',
     demo: 'https://mclima.github.io/tip-calculator-app/',
     github: 'https://github.com/mclima/tip-calculator-app',
+  },
+  {
+    id: 32,
+    category: 'React',
+    image: Image32,
+    title: 'Currency Converter',
+    desc: 'Built with React.',
+    demo: 'https://mclima.github.io/currency-converter-app/',
+    github: 'https://github.com/mclima/currency-converter-app',
   },
 ]
 

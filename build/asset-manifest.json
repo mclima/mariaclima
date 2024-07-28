@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eb3b5eab.css",
-    "main.js": "/static/js/main.bc3a14b7.js",
+    "main.js": "/static/js/main.e8f0e722.js",
     "static/media/imperium-platform.png": "/static/media/imperium-platform.0a0e11afd47e06315b66.png",
     "static/media/countdown.png": "/static/media/countdown.76c942d08e7aa6104785.png",
     "static/media/maria-sarya.png": "/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
@@ -32,12 +32,13 @@
     "static/media/important-messages-waiting.jpg": "/static/media/important-messages-waiting.5c9324500b13333fbd75.jpg",
     "static/media/limited-access-prize.jpg": "/static/media/limited-access-prize.005c95f2ec70ce14661b.jpg",
     "static/media/tip-calculator-app.jpg": "/static/media/tip-calculator-app.015e4840c9b81c64773e.jpg",
+    "static/media/currency-converter-app.jpg": "/static/media/currency-converter-app.370650db125623f87b65.jpg",
     "index.html": "/index.html",
     "main.eb3b5eab.css.map": "/static/css/main.eb3b5eab.css.map",
-    "main.bc3a14b7.js.map": "/static/js/main.bc3a14b7.js.map"
+    "main.e8f0e722.js.map": "/static/js/main.e8f0e722.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3b5eab.css",
-    "static/js/main.bc3a14b7.js"
+    "static/js/main.e8f0e722.js"
   ]
 }
