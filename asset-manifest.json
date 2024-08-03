@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mariaclima/static/css/main.eb3b5eab.css",
-    "main.js": "/mariaclima/static/js/main.b0bb62da.js",
+    "main.js": "/mariaclima/static/js/main.472c70b5.js",
     "static/media/imperium-platform.png": "/mariaclima/static/media/imperium-platform.0a0e11afd47e06315b66.png",
     "static/media/countdown.png": "/mariaclima/static/media/countdown.76c942d08e7aa6104785.png",
     "static/media/maria-sarya.png": "/mariaclima/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
@@ -12,6 +12,7 @@
     "static/media/ada-slider.png": "/mariaclima/static/media/ada-slider.3c48a4a90dba3dee992a.png",
     "static/media/nytimes-news-app.jpg": "/mariaclima/static/media/nytimes-news-app.8d6c835da97c1f5eb5e7.jpg",
     "static/media/mystery-savings-device.png": "/mariaclima/static/media/mystery-savings-device.42c34339b50c8692a5a3.png",
+    "static/media/mclinteractive.png": "/mariaclima/static/media/mclinteractive.729317731b536e5dc268.png",
     "static/media/mariaclima.png": "/mariaclima/static/media/mariaclima.c8b0442443702abf892d.png",
     "static/media/pch-payments.jpg": "/mariaclima/static/media/pch-payments.c8bb49ab8f040481fa64.jpg",
     "static/media/pionline.png": "/mariaclima/static/media/pionline.26c805fc9bab524307f3.png",
@@ -35,10 +36,10 @@
     "static/media/currency-converter-app.jpg": "/mariaclima/static/media/currency-converter-app.370650db125623f87b65.jpg",
     "index.html": "/mariaclima/index.html",
     "main.eb3b5eab.css.map": "/mariaclima/static/css/main.eb3b5eab.css.map",
-    "main.b0bb62da.js.map": "/mariaclima/static/js/main.b0bb62da.js.map"
+    "main.472c70b5.js.map": "/mariaclima/static/js/main.472c70b5.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3b5eab.css",
-    "static/js/main.b0bb62da.js"
+    "static/js/main.472c70b5.js"
   ]
 }
