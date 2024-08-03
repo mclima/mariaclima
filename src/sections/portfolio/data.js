@@ -16,20 +16,21 @@ import Image15 from '../../assets/to-do-list.jpg'
 import Image16 from '../../assets/twin-lions-global-health.jpg'
 import Image17 from '../../assets/salih-salon.jpg'
 import Image18 from '../../assets/armelle-for-kids.jpg'
-import Image19 from '../../assets/foxbusiness.png'
-import Image20 from '../../assets/pionline.png'
-import Image21 from '../../assets/countdown.png'
-import Image22 from '../../assets/ada-slider.png'
-import Image23 from '../../assets/mobile-slider.png'
-import Image24 from '../../assets/slider-win-your-dreams.jpg'
-import Image25 from '../../assets/tic-tac-toe.png'
-import Image26 from '../../assets/rate-calculator.gif'
-import Image27 from '../../assets/pch-payments.jpg'
-import Image28 from '../../assets/nytimes-news-app.jpg'
-import Image29 from '../../assets/accordion-app.jpg'
-import Image30 from '../../assets/show-more-app.jpg'
-import Image31 from '../../assets/tip-calculator-app.jpg'
-import Image32 from '../../assets/currency-converter-app.jpg'
+import Image19 from '../../assets/mclinteractive.png'
+import Image20 from '../../assets/foxbusiness.png'
+import Image21 from '../../assets/pionline.png'
+import Image22 from '../../assets/countdown.png'
+import Image23 from '../../assets/ada-slider.png'
+import Image24 from '../../assets/mobile-slider.png'
+import Image25 from '../../assets/slider-win-your-dreams.jpg'
+import Image26 from '../../assets/tic-tac-toe.png'
+import Image27 from '../../assets/rate-calculator.gif'
+import Image28 from '../../assets/pch-payments.jpg'
+import Image29 from '../../assets/nytimes-news-app.jpg'
+import Image30 from '../../assets/accordion-app.jpg'
+import Image31 from '../../assets/show-more-app.jpg'
+import Image32 from '../../assets/tip-calculator-app.jpg'
+import Image33 from '../../assets/currency-converter-app.jpg'
 
 const data = [
   {
@@ -202,123 +203,132 @@ const data = [
     id: 19,
     category: 'Websites',
     image: Image19,
-    title: 'Fox Business - Business News',
-    desc: 'Maintained and enhanced the frontend with JavaScript, jQuery, CSS, HTML.',
-    demo: 'https://foxbusiness.com',
+    title: 'MCL Interactive - Web Development',
+    desc: 'Built with WordPress, JavaScript, CSS, HTML.',
+    demo: 'https://mclinteractive.com',
     github: '',
   },
   {
     id: 20,
     category: 'Websites',
     image: Image20,
+    title: 'Fox Business - Business News',
+    desc: 'Maintained and enhanced the frontend with JavaScript, jQuery, CSS, HTML.',
+    demo: 'https://foxbusiness.com',
+    github: '',
+  },
+  {
+    id: 21,
+    category: 'Websites',
+    image: Image21,
     title: 'Pensions & Investments - Financial News',
     desc: 'Maintained and enhanced the frontend with JavaScript, jQuery, CSS, HTML.',
     demo: 'https://pionline.com',
     github: '',
   },
   {
-    id: 21,
+    id: 22,
     category: 'UI Components',
-    image: Image21,
+    image: Image22,
     title: 'Countdown',
     desc: 'Built with JavaScript.',
     demo: 'https://codepen.io/mlima2020/pen/poWdXxw',
     github: '',
   },
   {
-    id: 22,
+    id: 23,
     category: 'UI Components',
-    image: Image22,
+    image: Image23,
     title: 'ADA Slider',
     desc: 'Built with JavaScript.',
     demo: 'https://codepen.io/mlima2020/pen/wvQapZQ',
     github: '',
   },
   {
-    id: 23,
+    id: 24,
     category: 'UI Components',
-    image: Image23,
+    image: Image24,
     title: 'Mobile Slider',
     desc: 'Built with JavaScript.',
     demo: 'https://codepen.io/mlima2020/pen/eYPmYPe',
     github: '',
   },
   {
-    id: 24,
+    id: 25,
     category: 'UI Components',
-    image: Image24,
+    image: Image25,
     title: 'Slider',
     desc: 'Built with JavaScript, GSAP.',
     demo: 'https://codepen.io/mlima2020/pen/QWRwXgG',
     github: '',
   },
   {
-    id: 25,
+    id: 26,
     category: 'UI Components',
-    image: Image25,
+    image: Image26,
     title: 'Tic Tac Toe',
     desc: 'Built with jQuery.',
     demo: 'https://codepen.io/mlima2020/pen/zYEPXKy',
     github: '',
   },
   {
-    id: 26,
+    id: 27,
     category: 'UI Components',
-    image: Image26,
+    image: Image27,
     title: 'Rate Calculator',
     desc: 'Built with JavaScript.',
     demo: 'https://websystemsview.com/sv/webdevelopment/javascript/javascript.html#rateForm',
     github: 'https://github.com/mclima/rate-calculator',
   },
   {
-    id: 27,
+    id: 28,
     category: 'UI Components',
-    image: Image27,
+    image: Image28,
     title: "PCH Customers' Weekly Prize Payments",
     desc: 'Built with JavaScript.',
     demo: 'https://mariaclima.com/pch/calculations/pch-prize-payments.html',
     github: 'https://github.com/mclima/weekly-prize-payments',
   },
   {
-    id: 28,
+    id: 29,
     category: 'React',
-    image: Image28,
+    image: Image29,
     title: 'NYTimes Stories - Fetch API',
     desc: 'Built with Preact and Vite.',
     demo: 'https://mclima.github.io/news-app/',
     github: 'https://github.com/mclima/news-app',
   },
   {
-    id: 29,
+    id: 30,
     category: 'React',
-    image: Image29,
+    image: Image30,
     title: 'JS Q&As - Accordion',
     desc: 'Built with React.',
     demo: 'https://mclima.github.io/accordion-app/',
     github: 'https://github.com/mclima/accordion-app',
   },
   {
-    id: 30,
+    id: 31,
     category: 'React',
-    image: Image30,
+    image: Image31,
     title: 'Show More',
     desc: 'Built with React.',
     demo: 'https://mclima.github.io/show-more-app/',
     github: 'https://github.com/mclima/show-more-app',
   },
   {
-    id: 31,
+    id: 32,
     category: 'React',
-    image: Image31,
+    image: Image32,
     title: 'Tip Calculator',
     desc: 'Built with React.',
     demo: 'https://mclima.github.io/tip-calculator-app/',
     github: 'https://github.com/mclima/tip-calculator-app',
   },
   {
-    id: 32,
+    id: 33,
     category: 'React',
-    image: Image32,
+    image: Image33,
     title: 'Currency Converter',
     desc: 'Built with React.',
     demo: 'https://mclima.github.io/currency-converter-app/',
