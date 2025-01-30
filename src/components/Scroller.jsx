@@ -12,12 +12,6 @@ const Scroller = ({ triggerRef }) => {
     const elements = document.querySelectorAll('.scrollEl');
     elementsRef.current = elements;
 
-    ScrollTrigger.create({
-        preventOverlaps: true,
-        fastScrollEnd: true,
-        invalidateOnRefresh: true
-    });
-
     elements.forEach(element => {
         let timeline = gsap.timeline({
         scrollTrigger: {
