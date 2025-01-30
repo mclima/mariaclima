@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mariaclima/static/css/main.eb3b5eab.css",
-    "main.js": "/mariaclima/static/js/main.0bba3b28.js",
+    "main.js": "/mariaclima/static/js/main.cea88d03.js",
     "static/media/imperium-platform.png": "/mariaclima/static/media/imperium-platform.0a0e11afd47e06315b66.png",
     "static/media/countdown.png": "/mariaclima/static/media/countdown.76c942d08e7aa6104785.png",
     "static/media/maria-sarya.png": "/mariaclima/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
@@ -36,10 +36,10 @@
     "static/media/currency-converter-app.jpg": "/mariaclima/static/media/currency-converter-app.370650db125623f87b65.jpg",
     "index.html": "/mariaclima/index.html",
     "main.eb3b5eab.css.map": "/mariaclima/static/css/main.eb3b5eab.css.map",
-    "main.0bba3b28.js.map": "/mariaclima/static/js/main.0bba3b28.js.map"
+    "main.cea88d03.js.map": "/mariaclima/static/js/main.cea88d03.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3b5eab.css",
-    "static/js/main.0bba3b28.js"
+    "static/js/main.cea88d03.js"
   ]
 }
