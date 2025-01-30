@@ -1,4 +1,4 @@
-import { RiFacebookLine } from "react-icons/ri";
+import { RiLinkedinLine, RiFacebookLine } from "react-icons/ri";
 import { LuGithub } from "react-icons/lu";
 
 export const links = [
@@ -11,6 +11,7 @@ export const links = [
 
 
 export const socials = [
-    {id: 2, link: 'https://www.facebook.com/maria.lima.mcl', icon: <RiFacebookLine/>},
-    {id: 4, link: 'https://github.com/mclima', icon: <LuGithub/>}
+    {id: 0, link: 'https://www.linkedin.com/in/mariaclima/', icon: <RiLinkedinLine />},
+    {id: 1, link: 'https://www.facebook.com/maria.lima.mcl', icon: <RiFacebookLine/>},
+    {id: 2, link: 'https://github.com/mclima', icon: <LuGithub/>}
 ]
