@@ -20,17 +20,18 @@ import Image19 from '../../assets/mclinteractive.png'
 import Image20 from '../../assets/foxbusiness.png'
 import Image21 from '../../assets/pionline.png'
 import Image22 from '../../assets/countdown.png'
-import Image23 from '../../assets/ada-slider.png'
-import Image24 from '../../assets/mobile-slider.png'
-import Image25 from '../../assets/slider-win-your-dreams.jpg'
-import Image26 from '../../assets/tic-tac-toe.png'
-import Image27 from '../../assets/rate-calculator.gif'
-import Image28 from '../../assets/pch-payments.jpg'
-import Image29 from '../../assets/nytimes-news-app.jpg'
-import Image30 from '../../assets/accordion-app.jpg'
-import Image31 from '../../assets/show-more-app.jpg'
-import Image32 from '../../assets/tip-calculator-app.jpg'
-import Image33 from '../../assets/currency-converter-app.jpg'
+import Image23 from '../../assets/responsive-carousel.png'
+import Image24 from '../../assets/ada-slider.png'
+import Image25 from '../../assets/mobile-slider.png'
+import Image26 from '../../assets/slider-win-your-dreams.jpg'
+import Image27 from '../../assets/tic-tac-toe.png'
+import Image28 from '../../assets/rate-calculator.gif'
+import Image29 from '../../assets/pch-payments.jpg'
+import Image30 from '../../assets/nytimes-news-app.jpg'
+import Image31 from '../../assets/accordion-app.jpg'
+import Image32 from '../../assets/show-more-app.jpg'
+import Image33 from '../../assets/tip-calculator-app.jpg'
+import Image34 from '../../assets/currency-converter-app.jpg'
 
 const data = [
   {
@@ -239,96 +240,105 @@ const data = [
     id: 23,
     category: 'UI Components',
     image: Image23,
-    title: 'ADA Slider',
+    title: 'Responsive Carousel',
     desc: 'Built with JavaScript.',
-    demo: 'https://codepen.io/mlima2020/pen/wvQapZQ',
+    demo: 'https://codepen.io/mlima2020/pen/raBXvbb',
     github: '',
   },
   {
     id: 24,
     category: 'UI Components',
     image: Image24,
-    title: 'Slider w/ Arrows and Dots',
+    title: 'ADA Slider',
     desc: 'Built with JavaScript.',
-    demo: 'https://codepen.io/mlima2020/pen/gONWGob',
+    demo: 'https://codepen.io/mlima2020/pen/wvQapZQ',
     github: '',
   },
   {
     id: 25,
     category: 'UI Components',
     image: Image25,
-    title: 'Slider',
-    desc: 'Built with JavaScript, GSAP.',
-    demo: 'https://codepen.io/mlima2020/pen/QWRwXgG',
+    title: 'Slider w/ Arrows and Dots',
+    desc: 'Built with JavaScript.',
+    demo: 'https://codepen.io/mlima2020/pen/gONWGob',
     github: '',
   },
   {
     id: 26,
     category: 'UI Components',
     image: Image26,
-    title: 'Tic Tac Toe',
-    desc: 'Built with jQuery.',
-    demo: 'https://codepen.io/mlima2020/pen/zYEPXKy',
+    title: 'Slider',
+    desc: 'Built with JavaScript, GSAP.',
+    demo: 'https://codepen.io/mlima2020/pen/QWRwXgG',
     github: '',
   },
   {
     id: 27,
     category: 'UI Components',
     image: Image27,
+    title: 'Tic Tac Toe',
+    desc: 'Built with jQuery.',
+    demo: 'https://codepen.io/mlima2020/pen/zYEPXKy',
+    github: '',
+  },
+  {
+    id: 28,
+    category: 'UI Components',
+    image: Image28,
     title: 'Rate Calculator',
     desc: 'Built with JavaScript.',
     demo: 'https://websystemsview.com/sv/webdevelopment/javascript/javascript.html#rateForm',
     github: 'https://github.com/mclima/rate-calculator',
   },
   {
-    id: 28,
+    id: 29,
     category: 'UI Components',
-    image: Image28,
+    image: Image29,
     title: "PCH Customers' Weekly Prize Payments",
     desc: 'Built with JavaScript.',
     demo: 'https://mariaclima.com/pch/calculations/pch-prize-payments.html',
     github: 'https://github.com/mclima/weekly-prize-payments',
   },
   {
-    id: 29,
+    id: 30,
     category: 'React',
-    image: Image29,
+    image: Image30,
     title: 'NYTimes Stories - Fetch API',
     desc: 'Built with Preact and Vite.',
     demo: 'https://mclima.github.io/news-app/',
     github: 'https://github.com/mclima/news-app',
   },
   {
-    id: 30,
+    id: 31,
     category: 'React',
-    image: Image30,
+    image: Image31,
     title: 'JS Q&As - Accordion',
     desc: 'Built with React.',
     demo: 'https://mclima.github.io/accordion-app/',
     github: 'https://github.com/mclima/accordion-app',
   },
   {
-    id: 31,
+    id: 32,
     category: 'React',
-    image: Image31,
+    image: Image32,
     title: 'Show More',
     desc: 'Built with React.',
     demo: 'https://mclima.github.io/show-more-app/',
     github: 'https://github.com/mclima/show-more-app',
   },
   {
-    id: 32,
+    id: 33,
     category: 'React',
-    image: Image32,
+    image: Image33,
     title: 'Tip Calculator',
     desc: 'Built with React.',
     demo: 'https://mclima.github.io/tip-calculator-app/',
     github: 'https://github.com/mclima/tip-calculator-app',
   },
   {
-    id: 33,
+    id: 34,
     category: 'React',
-    image: Image33,
+    image: Image34,
     title: 'Currency Converter - Fetch API',
     desc: 'Built with React.',
     demo: 'https://mclima.github.io/currency-converter-app/',
