@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mariaclima/static/css/main.eb3b5eab.css",
-    "main.js": "/mariaclima/static/js/main.de43739d.js",
+    "main.js": "/mariaclima/static/js/main.2635861d.js",
     "static/media/imperium-platform.png": "/mariaclima/static/media/imperium-platform.0a0e11afd47e06315b66.png",
     "static/media/countdown.png": "/mariaclima/static/media/countdown.76c942d08e7aa6104785.png",
     "static/media/maria-sarya.png": "/mariaclima/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
@@ -15,6 +15,7 @@
     "static/media/mclinteractive.png": "/mariaclima/static/media/mclinteractive.729317731b536e5dc268.png",
     "static/media/mariaclima.png": "/mariaclima/static/media/mariaclima.c8b0442443702abf892d.png",
     "static/media/pch-payments.jpg": "/mariaclima/static/media/pch-payments.c8bb49ab8f040481fa64.jpg",
+    "static/media/map-leaflet.png": "/mariaclima/static/media/map-leaflet.0a06e5739a98fa86f74b.png",
     "static/media/pionline.png": "/mariaclima/static/media/pionline.26c805fc9bab524307f3.png",
     "static/media/armelle-for-kids.jpg": "/mariaclima/static/media/armelle-for-kids.f5fd7bdf410b394f5290.jpg",
     "static/media/slider-win-your-dreams.jpg": "/mariaclima/static/media/slider-win-your-dreams.324b7ca6f37be40e43c6.jpg",
@@ -36,10 +37,10 @@
     "static/media/currency-converter-app.jpg": "/mariaclima/static/media/currency-converter-app.370650db125623f87b65.jpg",
     "index.html": "/mariaclima/index.html",
     "main.eb3b5eab.css.map": "/mariaclima/static/css/main.eb3b5eab.css.map",
-    "main.de43739d.js.map": "/mariaclima/static/js/main.de43739d.js.map"
+    "main.2635861d.js.map": "/mariaclima/static/js/main.2635861d.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3b5eab.css",
-    "static/js/main.de43739d.js"
+    "static/js/main.2635861d.js"
   ]
 }
