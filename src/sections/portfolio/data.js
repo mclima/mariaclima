@@ -168,7 +168,7 @@ const data = [
   {
     id: 15,
     category: 'Websites',
-    image: Image14,
+    image: Image15,
     title: 'Quantum Stat - Machine Learning',
     desc: 'Built with Python, Django, JavaScript, CSS, HTML.',
     demo: '',
