@@ -5,6 +5,16 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 // Register the ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
+// Helper function to safely execute DOM operations and resolve bug in FF
+const safelyExecute = (fn) => {
+  try {
+    return fn();
+  } catch (error) {
+    console.warn('ScrollTrigger operation failed:', error);
+    return null;
+  }
+};
+
 const Scroller = ({ triggerRef }) => {
     const elementsRef = useRef([]);
 
@@ -13,32 +23,47 @@ const Scroller = ({ triggerRef }) => {
     elementsRef.current = elements;
 
     elements.forEach(element => {
-        let timeline = gsap.timeline({
-        scrollTrigger: {
-        trigger: element,
-        start: "top 80%",
-        end: "bottom 80%",
-        toggleActions: "restart none none reset"
-        }
-    });
+        safelyExecute(() => {
+            let timeline = gsap.timeline({
+                scrollTrigger: {
+                    trigger: element,
+                    start: "top 80%",
+                    end: "bottom 80%",
+                    toggleActions: "restart none none reset"
+                }
+            });
 
-    timeline.fromTo(element, { autoAlpha: 0, y: 100 }, { duration: 1, autoAlpha: 1, y: 0 });
+            timeline.fromTo(element, { autoAlpha: 0, y: 100 }, { duration: 1, autoAlpha: 1, y: 0 });
+        });
     });
 
     // Function to update scrollTrigger positions dynamically
     const updateScrollTrigger = () => {
-        elementsRef.current.forEach(element => {
+        safelyExecute(() => {
             ScrollTrigger.refresh();
         });
     };
 
     // Watch for changes in the size of the dynamic height element (#portfolio)
-    const resizeObserver = new ResizeObserver(updateScrollTrigger);
-    resizeObserver.observe(document.getElementById('portfolio')); // Use the correct ID
+    let resizeObserver = null;
+    const portfolioElement = document.getElementById('portfolio');
+    
+    if (portfolioElement) {
+        try {
+            resizeObserver = new ResizeObserver(updateScrollTrigger);
+            resizeObserver.observe(portfolioElement);
+        } catch (error) {
+            console.warn('ResizeObserver failed:', error);
+        }
+    }
 
     // Cleanup function
     return () => {
-        resizeObserver.disconnect();
+        if (resizeObserver) {
+            safelyExecute(() => {
+                resizeObserver.disconnect();
+            });
+        }
     };
 }, []);
 
