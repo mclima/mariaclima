@@ -7,18 +7,25 @@ import data from './data'
 
 const Portfolio = () => {
   const triggerRef = useRef()
-  const [projects, setProjects] = useState(data)
+  
+  const sortedData = [...data].sort((a, b) => {
+    if (a.category < b.category) return -1;
+    if (a.category > b.category) return 1;
+    return 0;
+  })
+  
+  const [projects, setProjects] = useState(sortedData)
   const [activeCategory, setActiveCategory] = useState('Websites') // Set the desired initial category
   const myArray = data.map((item) => item.category)
   const mySet = new Set(myArray)
-  const categories = Array.from(mySet).sort().reverse() // reverse order of array
+  const categories = Array.from(mySet).sort().reverse() 
   const uniqueCategories = [...categories]
 
   const filterProjectsHandler = (category) => {
     if (category === 'all') {
-      setProjects(data)
+      setProjects(sortedData)
     } else {
-      const filterProjects = data.filter(
+      const filterProjects = sortedData.filter(
         (project) => project.category === category
       )
       setProjects(filterProjects)
