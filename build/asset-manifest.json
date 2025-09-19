@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d8ea9006.css",
-    "main.js": "/static/js/main.65bf1d17.js",
+    "main.js": "/static/js/main.e80eefa7.js",
     "static/media/maria-sarya.png": "/static/media/maria-sarya.e90af7fe84571eaf5dbe.png",
     "static/media/ampyra.webp": "/static/media/ampyra.3be462f74ac7b7df418a.webp",
     "static/media/nytimes-news-app.webp": "/static/media/nytimes-news-app.cb6c4fd8703512cda0e8.webp",
@@ -38,6 +38,7 @@
     "static/media/press-big-bucks.webp": "/static/media/press-big-bucks.2a7248b6ac5e733e772b.webp",
     "static/media/limited-access-prize.webp": "/static/media/limited-access-prize.79305f828171e71da06a.webp",
     "static/media/tic-tac-toe.webp": "/static/media/tic-tac-toe.276f482b63a8f0ba75e1.webp",
+    "static/media/wordle.webp": "/static/media/wordle.c6ba1835259070a643cc.webp",
     "static/media/important-messages-waiting.webp": "/static/media/important-messages-waiting.0ce380594eb16ed6b6c0.webp",
     "static/media/tip-calculator-app.webp": "/static/media/tip-calculator-app.c9b9bee0c7e0fadb2dce.webp",
     "static/media/currency-converter-app.webp": "/static/media/currency-converter-app.934b392a658a61560cac.webp",
@@ -45,10 +46,10 @@
     "static/media/to-do-list.webp": "/static/media/to-do-list.1d3291e49ff9ea2c1d9c.webp",
     "static/media/responsive-carousel.webp": "/static/media/responsive-carousel.7cff3f00f0ecca1be88d.webp",
     "main.d8ea9006.css.map": "/static/css/main.d8ea9006.css.map",
-    "main.65bf1d17.js.map": "/static/js/main.65bf1d17.js.map"
+    "main.e80eefa7.js.map": "/static/js/main.e80eefa7.js.map"
   },
   "entrypoints": [
     "static/css/main.d8ea9006.css",
-    "static/js/main.65bf1d17.js"
+    "static/js/main.e80eefa7.js"
   ]
 }

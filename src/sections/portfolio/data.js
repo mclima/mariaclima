@@ -41,6 +41,7 @@ import Image38 from '../../assets/xeomin.webp'
 import Image39 from '../../assets/merz-aesthetics.webp'
 import Image40 from '../../assets/ultherapy.webp'
 import Image41 from '../../assets/live-local-music.webp'
+import Image42 from '../../assets/wordle.webp'
 
 const data = [
   {
@@ -432,6 +433,15 @@ const data = [
     title: 'Live Local Music - Entertainment',
     desc: 'Built with React, JavaScript, CSS, HTML, Vite, Firebase/Firestore.',
     demo: 'https://livelocal.music',
+    github: '',
+  },
+  {
+    id: 42,
+    category: 'React',
+    image: Image42,
+    title: 'Wordle Game',
+    desc: 'Built with React, CSS, HTML, Vite.',
+    demo: 'https://mclima.github.io/wordle/',
     github: '',
   },
 ]
