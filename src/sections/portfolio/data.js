@@ -16,7 +16,7 @@ import Image15 from '../../assets/inbrija.webp'
 import Image16 from '../../assets/xeomin.webp'
 import Image17 from '../../assets/merz-aesthetics.webp'
 import Image18 from '../../assets/ultherapy.webp'
-import Image19 from '../../assets/live-local-music.webp'
+//import Image19 from '../../assets/live-local-music.webp'
 import Image20 from '../../assets/to-do-list.webp'
 import Image21 from '../../assets/imperium-platform.webp'
 import Image22 from '../../assets/quantumstat.webp'
@@ -211,15 +211,15 @@ const data = [
     demo: 'https://ultherapy.com',
     github: '',
   },
-  {
-    id: 19,
-    category: 'Websites',
-    image: Image19,
-    title: 'Live Local Music - Entertainment',
-    desc: 'Built with React, JavaScript, CSS, HTML, Vite, Firebase/Firestore.',
-    demo: 'https://livelocal.music',
-    github: '',
-  },
+  // {
+  //   id: 19,
+  //   category: 'Websites',
+  //   image: Image19,
+  //   title: 'Live Local Music - Entertainment',
+  //   desc: 'Built with React, JavaScript, CSS, HTML, Vite, Firebase/Firestore.',
+  //   demo: 'https://livelocal.music',
+  //   github: '',
+  // },
   {
     id: 20,
     category: 'Websites',
